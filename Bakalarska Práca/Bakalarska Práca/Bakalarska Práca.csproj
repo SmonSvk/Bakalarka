@@ -80,6 +80,12 @@
     <Compile Include="CameraPick.Designer.cs">
       <DependentUpon>CameraPick.cs</DependentUpon>
     </Compile>
+    <Compile Include="ColorSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorSet.Designer.cs">
+      <DependentUpon>ColorSet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Console.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +127,9 @@
     <Compile Include="Settings.cs" />
     <EmbeddedResource Include="CameraPick.resx">
       <DependentUpon>CameraPick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorSet.resx">
+      <DependentUpon>ColorSet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Console.resx">
       <DependentUpon>Console.cs</DependentUpon>

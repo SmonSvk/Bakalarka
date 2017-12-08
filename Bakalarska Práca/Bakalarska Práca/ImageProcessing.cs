@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Emgu;
 using Emgu.CV;
+using Emgu.CV.Cvb;
 using Emgu.Util;
 using System.Diagnostics;
 using Emgu.CV.Structure;
@@ -22,6 +23,10 @@ namespace Bakalarska_Práca
         int camindex;
         public Image<Bgr, byte> frame;
         Main main;
+        CvBlobDetector detect;
+        CvBlobs blops;
+        ColorSet colorset;
+        Bgr colorDetect;
 
         public ImageProcessing(int CamIndex, Main main)
         {
@@ -38,6 +43,38 @@ namespace Bakalarska_Práca
         private void ImageProcessing_Load(object sender, EventArgs e)
         {
             capture = new VideoCapture(camindex);
+            detect = new CvBlobDetector();
+            blops = new CvBlobs();
+            colorset = new ColorSet();
+
+            if (CameraCheck())
+            {
+                Processingtimer.Start();
+                DrawTimer.Start();
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (!CameraCheck())
+            {
+                return;
+            }
+                if (WindowState != FormWindowState.Normal)
+            {
+                return;
+            }
+
+            if (frame != null)
+            {
+                ImageforDetection.Image = frame.Resize(ImageforDetection.Width, ImageforDetection.Height, Emgu.CV.CvEnum.Inter.Linear);
+                Image<Bgr, byte> blopsimage = detect.DrawBlobs(frame.Convert<Gray, byte>(), blops, CvBlobDetector.BlobRenderType.Default, 1);
+                finalimage.Image = blopsimage.Resize(finalimage.Width, finalimage.Height, Emgu.CV.CvEnum.Inter.Linear);
+            }
+        }
+
+        private bool CameraCheck()
+        {
             if (!capture.IsOpened)
             {
                 MessageBox.Show("Camera can't be find. Choose new camera.", "Error", MessageBoxButtons.OK);
@@ -45,29 +82,44 @@ namespace Bakalarska_Práca
                 Properties.Settings.Default.Save();
                 main.CameraPick();
                 Close();
-
+                return false;
             }
             else
             {
-                DrawTimer.Start();
+                return true;
             }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void lowbutton_Click(object sender, EventArgs e)
         {
-            if(WindowState != FormWindowState.Normal)
-            {
-                return;
-            }
+            DrawTimer.Interval = 500;
+        }
+
+        private void realbutton_Click(object sender, EventArgs e)
+        {
+            DrawTimer.Interval = 10;
+        }
+
+        private void Processingtimer_Tick(object sender, EventArgs e)
+        {
             frame = capture.QueryFrame().ToImage<Bgr, byte>();
-            
-            finalimage.Image = frame.Resize(finalimage.Width, finalimage.Height, Emgu.CV.CvEnum.Inter.Linear);
+            BlopDetect();
         }
 
-        private void CameraCheck()
+        private Image<Gray, byte> ColorDetect(Bgr start, Bgr stop)
         {
-
+            return frame.InRange(start, stop);
         }
-        
+
+        private void BlopDetect()
+        {
+            detect.Detect(ColorDetect(new Bgr(0, 0, 250), new Bgr(255, 255, 255)), blops);
+            Debug.WriteLine(blops.Count);
+        }
+
+        private void setColorForDetectionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            colorset.Show();
+        }
     }
 }
