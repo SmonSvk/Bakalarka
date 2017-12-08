@@ -1,0 +1,41 @@
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\concrt140.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\cvextern.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\msvcp140.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\opencv_ffmpeg330_64.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\vcruntime140.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\concrt140.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\cvextern.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\msvcp140.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\opencv_ffmpeg330.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\vcruntime140.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\Bakalarska Práca.exe.config
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\Bakalarska Práca.exe
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\Bakalarska Práca.pdb
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.UI.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.World.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\ZedGraph.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.UI.xml
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.World.xml
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\ZedGraph.xml
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\de\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\es\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\fr\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\hu\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\it\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\ja\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\pt\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\ru\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\sk\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\sv\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\tr\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\zh-cn\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\bin\Release\zh-tw\ZedGraph.resources.dll
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Console.resources
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Main.resources
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Properties.Resources.resources
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Server.resources
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.ServerSettings.resources
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.csproj.GenerateResource.Cache
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.csproj.CoreCompileInputs.cache
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.exe
+c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.pdb
