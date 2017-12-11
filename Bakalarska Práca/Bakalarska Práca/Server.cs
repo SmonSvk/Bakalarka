@@ -61,12 +61,14 @@ namespace Bakalarska_Práca
             Connect();
         }
 
-        private void WriteLine(string text)
+        public void WriteLine(string text)
         {
+            if (!con.ServerCon)
+                return;
+
             con.WriteLine(text);
             Textbox.AppendText(text);
-            Textbox.AppendText("\n");
-
+            Textbox.AppendText("\n"); 
         }
 
         private void WaitingTimer_Tick(object sender, EventArgs e)
@@ -101,7 +103,7 @@ namespace Bakalarska_Práca
 
                 foreach (byte b in bytemsg)
                 {
-                    if (b.Equals(null))
+                    if (b.Equals('#'))
                     {
                         break;
                     }
@@ -114,8 +116,11 @@ namespace Bakalarska_Práca
             }
         }
 
-        private void Write(string text)
+        public void Write(string text)
         {
+            if (!con.ServerCon)
+                return;
+
             con.Write(text);
             Textbox.AppendText(text);
         }
@@ -252,16 +257,24 @@ namespace Bakalarska_Práca
             }
             else
             {
+                int lenght = Encoding.ASCII.GetByteCount(text + "#");
 
+                bytemsg = new byte[lenght];
+
+                bytemsg = Encoding.ASCII.GetBytes(text + "#");
+
+                stream.Write(bytemsg, 0, lenght);
+
+                WriteLine(text);
             }
             return true;
         }
 
         private void Server_FormClosing(object sender, FormClosingEventArgs e)
         {
+            e.Cancel = true;
             this.WindowState = FormWindowState.Minimized;
             this.ShowInTaskbar = false;
-            return;
         }
 
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e)

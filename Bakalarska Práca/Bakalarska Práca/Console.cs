@@ -14,6 +14,8 @@ namespace Bakalarska_Práca
     {
         bool scroll = false;
 
+        public bool ServerCon = true, ImageProcessingCon = true, GameControlCon = true;
+
         public Console()
         {
             InitializeComponent();
@@ -57,6 +59,28 @@ namespace Bakalarska_Práca
         private void Clear_Click_1(object sender, EventArgs e)
         {
             consoletext.Clear();
+        }
+
+        private void ImageProcessingCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            ImageProcessingCon = ImageProcessingCheck.Checked;
+        }
+
+        private void GameControlCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            GameControlCon = GameControlCheck.Checked;
+        }
+
+        private void Console_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
+        }
+
+        private void ServerCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            ServerCon = ServerCheck.Checked;
         }
     }
 }

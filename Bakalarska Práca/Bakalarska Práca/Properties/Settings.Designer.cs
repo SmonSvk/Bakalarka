@@ -58,5 +58,41 @@ namespace Bakalarska_Práca.Properties {
                 this["Camera"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public int Tolerance {
+            get {
+                return ((int)(this["Tolerance"]));
+            }
+            set {
+                this["Tolerance"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Black")]
+        public global::System.Drawing.Color ColorLow {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorLow"]));
+            }
+            set {
+                this["ColorLow"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("White")]
+        public global::System.Drawing.Color ColorHigh {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorHigh"]));
+            }
+            set {
+                this["ColorHigh"] = value;
+            }
+        }
     }
 }

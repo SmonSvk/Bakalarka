@@ -27,18 +27,18 @@ namespace Bakalarska_Práca
         private void Form1_Load(object sender, EventArgs e)
         {
             Properties.Settings.Default.Upgrade();
+            
+            con = new Console();
+            con.Show();
 
             CameraPick();
 
             serversettings = new ServerSettings();
-
-            con = new Console();
-            con.Show();
-
+            
             server = new Server(con);
             server.Show();
 
-            gamecontrols = new GameControls();
+            gamecontrols = new GameControls(server, con);
             gamecontrols.Show();
             
         }
@@ -65,7 +65,8 @@ namespace Bakalarska_Práca
             }
             else
             {
-                server.Select();
+
+                erver.Select();
             }
         }
 
@@ -162,7 +163,7 @@ namespace Bakalarska_Práca
 
         public void ImageProccessingStart()
         {
-            imageprocessing = new ImageProcessing(Properties.Settings.Default.Camera, this);
+            imageprocessing = new ImageProcessing(Properties.Settings.Default.Camera, this, con);
             imageprocessing.Show();
         }
 
