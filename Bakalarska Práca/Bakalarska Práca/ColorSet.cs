@@ -16,8 +16,14 @@ namespace Bakalarska_Práca
 {
     public partial class ColorSet : Form
     {
+        ImageProcessing imageprocessing;
         Bgr red, green, blue, final;
 
+        public ColorSet(ImageProcessing imageprocessing)
+        {
+            InitializeComponent();
+            this.imageprocessing = imageprocessing;
+        }
         private void ColorSet_Load(object sender, EventArgs e)
         {
             red = new Bgr(0, 0, 0);
@@ -30,29 +36,34 @@ namespace Bakalarska_Práca
             green.Green = GreenTrackBar.Value;
             GreenPanel.BackColor = Color.FromArgb(0, (int)green.Green, 0);
             final = new Bgr(blue.Blue, green.Green, red.Red);
-            ColorShow.BackColor = final;
+            GreenLabel.Text = GreenTrackBar.Value.ToString();
+        }
+
+        private void ApplyButton_Click(object sender, EventArgs e)
+        {
+            imageprocessing.colorDetect = final;
         }
 
         private void RedTrackBar_Scroll(object sender, EventArgs e)
         {
             red.Red = RedTrackBar.Value;
             RedPanel.BackColor = Color.FromArgb((int)red.Red, 0, 0);
+            final = new Bgr(blue.Blue, green.Green, red.Red);
+            RedLable.Text = RedTrackBar.Value.ToString();
         }
 
         private void CancelButton_Click(object sender, EventArgs e)
         {
-            Close();
+            Hide();
         }
 
-        public ColorSet()
-        {
-            InitializeComponent();
-        }
 
         private void BlueTrackBar_Scroll(object sender, EventArgs e)
         {
             blue.Blue = BlueTrackBar.Value;
             BluePanel.BackColor = System.Drawing.Color.FromArgb(0 , 0, (int)blue.Blue);
+            final = new Bgr(blue.Blue, green.Green, red.Red);
+            BlueLabel.Text = BlueTrackBar.Value.ToString();
         }
     }
 }

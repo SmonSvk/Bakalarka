@@ -38,6 +38,7 @@ namespace Bakalarska_Práca
         private void Close_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
         }
 
         private void consoletext_TextChanged(object sender, EventArgs e)

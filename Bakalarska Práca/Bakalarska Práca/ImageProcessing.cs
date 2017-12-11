@@ -26,7 +26,7 @@ namespace Bakalarska_Práca
         CvBlobDetector detect;
         CvBlobs blops;
         ColorSet colorset;
-        Bgr colorDetect;
+        public Bgr colorDetect;
 
         public ImageProcessing(int CamIndex, Main main)
         {
@@ -38,6 +38,7 @@ namespace Bakalarska_Práca
         private void CloseButton_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
         }
 
         private void ImageProcessing_Load(object sender, EventArgs e)
@@ -45,7 +46,7 @@ namespace Bakalarska_Práca
             capture = new VideoCapture(camindex);
             detect = new CvBlobDetector();
             blops = new CvBlobs();
-            colorset = new ColorSet();
+            colorset = new ColorSet(this);
 
             if (CameraCheck())
             {
@@ -113,7 +114,7 @@ namespace Bakalarska_Práca
 
         private void BlopDetect()
         {
-            detect.Detect(ColorDetect(new Bgr(0, 0, 250), new Bgr(255, 255, 255)), blops);
+            detect.Detect(ColorDetect(colorDetect, new Bgr(255, 255, 255)), blops);
             Debug.WriteLine(blops.Count);
         }
 

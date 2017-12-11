@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Port" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">15000</Value>
+      <Value Profile="(Default)">50000</Value>
     </Setting>
     <Setting Name="SaveCamera" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>

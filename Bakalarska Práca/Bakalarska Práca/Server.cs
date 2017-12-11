@@ -38,6 +38,7 @@ namespace Bakalarska_Práca
         private void Close_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -254,6 +255,13 @@ namespace Bakalarska_Práca
 
             }
             return true;
+        }
+
+        private void Server_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
+            return;
         }
 
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e)

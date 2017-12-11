@@ -16,5 +16,6 @@ namespace Bakalarska_Práca
         {
             InitializeComponent();
         }
+        
     }
 }

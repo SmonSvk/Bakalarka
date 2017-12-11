@@ -48,6 +48,7 @@ namespace Bakalarska_Práca
             if (con.WindowState == FormWindowState.Minimized)
             {
                 con.WindowState = FormWindowState.Normal;
+                con.ShowInTaskbar = true;
             }
             else
             {
@@ -60,6 +61,7 @@ namespace Bakalarska_Práca
             if (server.WindowState == FormWindowState.Minimized)
             {
                 server.WindowState = FormWindowState.Normal;
+                server.ShowInTaskbar = true;
             }
             else
             {
@@ -77,6 +79,7 @@ namespace Bakalarska_Práca
             if (gamecontrols.WindowState == FormWindowState.Minimized)
             {
                 gamecontrols.WindowState = FormWindowState.Normal;
+                gamecontrols.ShowInTaskbar = true;
             }
             else
             {
@@ -93,6 +96,7 @@ namespace Bakalarska_Práca
             if (imageprocessing.WindowState == FormWindowState.Minimized)
             {
                 imageprocessing.WindowState = FormWindowState.Normal;
+                imageprocessing.ShowInTaskbar = true;
             }
             else
             {
@@ -111,6 +115,10 @@ namespace Bakalarska_Práca
             gamecontrols.WindowState = FormWindowState.Normal;
             server.WindowState = FormWindowState.Normal;
             con.WindowState = FormWindowState.Normal;
+            imageprocessing.ShowInTaskbar = true;
+            gamecontrols.ShowInTaskbar = true;
+            server.ShowInTaskbar = true;
+            con.ShowInTaskbar = true;
             imageprocessing.Select();
             gamecontrols.Select();
             server.Select();
@@ -164,6 +172,10 @@ namespace Bakalarska_Práca
             gamecontrols.WindowState = FormWindowState.Minimized;
             server.WindowState = FormWindowState.Minimized;
             con.WindowState = FormWindowState.Minimized;
+            imageprocessing.ShowInTaskbar = false;
+            gamecontrols.ShowInTaskbar = false;
+            server.ShowInTaskbar = false;
+            con.ShowInTaskbar = false;
         }
     }
 }

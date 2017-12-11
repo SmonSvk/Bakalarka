@@ -35,7 +35,7 @@ namespace Bakalarska_Práca
 
         private void cancelbutton_Click(object sender, EventArgs e)
         {
-            Close();
+            Hide();
         }
 
         private void ServerSettings_Load(object sender, EventArgs e)

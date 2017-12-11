@@ -235,6 +235,7 @@
             this.ShowInTaskbar = false;
             this.Text = "Server";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Server_FormClosing);
             this.Load += new System.EventHandler(this.Server_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
