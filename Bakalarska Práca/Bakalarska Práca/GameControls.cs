@@ -21,12 +21,7 @@ namespace Bakalarska_Práca
             this.server = server;
             this.con = con;
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            server.Send("StartGame");
-        }
-
+        
         private void StopButton_Click(object sender, EventArgs e)
         {
             server.Send("StopGame");
@@ -51,6 +46,11 @@ namespace Bakalarska_Práca
                 return;
 
             con.WriteLine(text);
+        }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+            server.Send("StartGame");
         }
     }
 }

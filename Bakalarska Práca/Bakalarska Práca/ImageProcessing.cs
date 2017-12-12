@@ -100,12 +100,12 @@ namespace Bakalarska_Práca
 
         private void lowbutton_Click(object sender, EventArgs e)
         {
-            DrawTimer.Interval = 500;
+            DrawTimer.Interval = 1000/10;
         }
 
         private void realbutton_Click(object sender, EventArgs e)
         {
-            DrawTimer.Interval = 10;
+            DrawTimer.Interval = 1000/100;
         }
 
         private void Processingtimer_Tick(object sender, EventArgs e)
@@ -113,6 +113,7 @@ namespace Bakalarska_Práca
             frame = capture.QueryFrame().ToImage<Bgr, byte>();
             ImageEdit();
             BlopDetect();
+
         }
 
         private void ImageEdit()
@@ -127,9 +128,7 @@ namespace Bakalarska_Práca
 
         private void BlopDetect()
         {
-            detect.Detect(ColorDetect(ColorDetectLow, ColorDetectHigh), blops);
-            //WriteLine("Blobs detected: " + blops.Count);
-            Debug.WriteLine(blops.Count);
+            detect.Detect(ColorDetect(ColorDetectLow, ColorDetectHigh), blops);           
         }        
 
         private void ImageforDetection_MouseClick(object sender, MouseEventArgs e)
@@ -165,10 +164,6 @@ namespace Bakalarska_Práca
             {
                 colorset.Reload();
             }
-            else
-            {
-                colorset.Show();
-            }
         }
 
         private void setColorForDetectionToolStripMenuItem_Click(object sender, EventArgs e)
@@ -180,6 +175,7 @@ namespace Bakalarska_Práca
         {
             e.Cancel = true;
             WindowState = FormWindowState.Minimized;
+            colorset.Hide();
             this.ShowInTaskbar = false;
         }
 
@@ -197,6 +193,7 @@ namespace Bakalarska_Práca
 
             con.Write(text);
         }
+        
         public void WriteLine(string text)
         {
             if (!con.ImageProcessingCon)

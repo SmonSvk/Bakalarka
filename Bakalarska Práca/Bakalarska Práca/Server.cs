@@ -185,6 +185,7 @@ namespace Bakalarska_Práca
                 {
                     client = server.AcceptTcpClient();
                     stream = client.GetStream();
+                    WriteLine("Test");
                 };
                 connectwait.RunWorkerCompleted += (obj, e1) =>
                 {

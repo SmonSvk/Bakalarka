@@ -69,7 +69,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 84.56057F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.43943F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(962, 433);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(950, 421);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -80,7 +80,7 @@
             this.settingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(962, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(950, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -105,9 +105,9 @@
             this.groupBox1.Controls.Add(this.lowbutton);
             this.groupBox1.Controls.Add(this.CloseButton);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(3, 373);
+            this.groupBox1.Location = new System.Drawing.Point(3, 363);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(956, 57);
+            this.groupBox1.Size = new System.Drawing.Size(944, 55);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Controls";
@@ -118,7 +118,7 @@
             this.realbutton.Dock = System.Windows.Forms.DockStyle.Left;
             this.realbutton.Location = new System.Drawing.Point(78, 18);
             this.realbutton.Name = "realbutton";
-            this.realbutton.Size = new System.Drawing.Size(82, 36);
+            this.realbutton.Size = new System.Drawing.Size(82, 34);
             this.realbutton.TabIndex = 2;
             this.realbutton.Text = "Real Time";
             this.realbutton.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
             this.lowbutton.Dock = System.Windows.Forms.DockStyle.Left;
             this.lowbutton.Location = new System.Drawing.Point(3, 18);
             this.lowbutton.Name = "lowbutton";
-            this.lowbutton.Size = new System.Drawing.Size(75, 36);
+            this.lowbutton.Size = new System.Drawing.Size(75, 34);
             this.lowbutton.TabIndex = 1;
             this.lowbutton.Text = "Low";
             this.lowbutton.UseVisualStyleBackColor = true;
@@ -140,9 +140,9 @@
             // 
             this.CloseButton.AutoSize = true;
             this.CloseButton.Dock = System.Windows.Forms.DockStyle.Right;
-            this.CloseButton.Location = new System.Drawing.Point(878, 18);
+            this.CloseButton.Location = new System.Drawing.Point(866, 18);
             this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(75, 36);
+            this.CloseButton.Size = new System.Drawing.Size(75, 34);
             this.CloseButton.TabIndex = 0;
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = true;
@@ -161,7 +161,7 @@
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(956, 336);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(944, 326);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // groupBox2
@@ -170,7 +170,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(3, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(472, 330);
+            this.groupBox2.Size = new System.Drawing.Size(466, 320);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Processed Image";
@@ -181,7 +181,7 @@
             this.finalimage.FunctionalMode = Emgu.CV.UI.ImageBox.FunctionalModeOption.RightClickMenu;
             this.finalimage.Location = new System.Drawing.Point(3, 18);
             this.finalimage.Name = "finalimage";
-            this.finalimage.Size = new System.Drawing.Size(466, 309);
+            this.finalimage.Size = new System.Drawing.Size(460, 299);
             this.finalimage.TabIndex = 2;
             this.finalimage.TabStop = false;
             // 
@@ -189,9 +189,9 @@
             // 
             this.groupBox3.Controls.Add(this.ImageforDetection);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(481, 3);
+            this.groupBox3.Location = new System.Drawing.Point(475, 3);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(472, 330);
+            this.groupBox3.Size = new System.Drawing.Size(466, 320);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Modiefied input image for detection";
@@ -202,7 +202,7 @@
             this.ImageforDetection.FunctionalMode = Emgu.CV.UI.ImageBox.FunctionalModeOption.RightClickMenu;
             this.ImageforDetection.Location = new System.Drawing.Point(3, 18);
             this.ImageforDetection.Name = "ImageforDetection";
-            this.ImageforDetection.Size = new System.Drawing.Size(466, 309);
+            this.ImageforDetection.Size = new System.Drawing.Size(460, 299);
             this.ImageforDetection.TabIndex = 2;
             this.ImageforDetection.TabStop = false;
             this.ImageforDetection.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ImageforDetection_MouseClick);
@@ -213,14 +213,14 @@
             // 
             // Processingtimer
             // 
-            this.Processingtimer.Interval = 10;
+            this.Processingtimer.Interval = 50;
             this.Processingtimer.Tick += new System.EventHandler(this.Processingtimer_Tick);
             // 
             // ImageProcessing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 433);
+            this.ClientSize = new System.Drawing.Size(950, 421);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

@@ -66,7 +66,7 @@ namespace Bakalarska_Práca
             else
             {
 
-                erver.Select();
+                server.Select();
             }
         }
 

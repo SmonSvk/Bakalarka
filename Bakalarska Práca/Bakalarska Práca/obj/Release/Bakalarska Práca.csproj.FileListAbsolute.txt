@@ -39,3 +39,48 @@ c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska
 c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.csproj.CoreCompileInputs.cache
 c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.exe
 c:\users\acer\documents\visual studio 2017\Projects\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.pdb
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\concrt140.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\cvextern.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\msvcp140.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\opencv_ffmpeg330_64.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x64\vcruntime140.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\concrt140.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\cvextern.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\msvcp140.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\opencv_ffmpeg330.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\x86\vcruntime140.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\Bakalarska Práca.exe.config
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\Bakalarska Práca.exe
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\Bakalarska Práca.pdb
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.UI.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.World.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\ZedGraph.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.UI.xml
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\Emgu.CV.World.xml
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\ZedGraph.xml
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\de\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\es\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\fr\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\hu\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\it\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\ja\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\pt\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\ru\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\sk\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\sv\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\tr\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\zh-cn\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Release\zh-tw\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.CameraPick.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.ColorSet.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Console.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.GameControls.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.ImageProcessing.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Main.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Properties.Resources.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.Server.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska_Práca.ServerSettings.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.csproj.GenerateResource.Cache
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.exe
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Release\Bakalarska Práca.pdb

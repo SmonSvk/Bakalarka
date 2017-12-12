@@ -89,20 +89,6 @@ C:\Users\Acer\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj
 C:\Users\Acer\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.exe
 C:\Users\Acer\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.pdb
 C:\Users\Acer\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.ColorSet.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.csprojResolveAssemblyReference.cache
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.CameraPick.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.ColorSet.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Console.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.GameControls.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.ImageProcessing.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Main.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Properties.Resources.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Server.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.ServerSettings.resources
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.csproj.GenerateResource.Cache
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.csproj.CoreCompileInputs.cache
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.exe
-C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.pdb
 C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Debug\x64\concrt140.dll
 C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Debug\x64\cvextern.dll
 C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Debug\x64\msvcp140.dll
@@ -135,3 +121,17 @@ C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bi
 C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Debug\tr\ZedGraph.resources.dll
 C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Debug\zh-cn\ZedGraph.resources.dll
 C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.CameraPick.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.ColorSet.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Console.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.GameControls.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.ImageProcessing.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Main.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Properties.Resources.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.Server.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska_Práca.ServerSettings.resources
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.csproj.GenerateResource.Cache
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.exe
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.pdb
+C:\Users\simon\Documents\GitHub\Bakalarka\Bakalarska Práca\Bakalarska Práca\obj\Debug\Bakalarska Práca.csprojResolveAssemblyReference.cache
